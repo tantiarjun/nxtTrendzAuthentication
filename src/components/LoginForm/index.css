@@ -1,0 +1,56 @@
+.bg-container {
+  height: 100vh;
+}
+
+.login-form-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.login-image {
+  height: 350px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-website-logo-desktop-image {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17px;
+}
+
+.user-name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button {
+  margin-top: 10px;
+  padding: 7px;
+  background-color: blue;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+.input-label {
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+.input-filed {
+  padding: 4px;
+}
+
+.error-msg {
+  color: red;
+}
